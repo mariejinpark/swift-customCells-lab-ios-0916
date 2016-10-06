@@ -12,8 +12,8 @@
 		5BEE48B01D143BBE00F7B63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE48AF1D143BBE00F7B63E /* Assets.xcassets */; };
 		5BEE48B31D143BBE00F7B63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE48B11D143BBE00F7B63E /* LaunchScreen.storyboard */; };
 		5BEE48BB1D1450AB00F7B63E /* MathTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48BA1D1450AB00F7B63E /* MathTableViewCell.swift */; };
-		5BEE48BD1D14514C00F7B63E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48BC1D14514C00F7B63E /* TableViewController.swift */; };
 		5BEE48C11D1455BB00F7B63E /* DisplayMathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48C01D1455BB00F7B63E /* DisplayMathViewController.swift */; };
+		90B8E1341DA6F633002EE424 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B8E1331DA6F633002EE424 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		5BEE48B21D143BBE00F7B63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BEE48B41D143BBE00F7B63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BEE48BA1D1450AB00F7B63E /* MathTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathTableViewCell.swift; sourceTree = "<group>"; };
-		5BEE48BC1D14514C00F7B63E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5BEE48C01D1455BB00F7B63E /* DisplayMathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayMathViewController.swift; sourceTree = "<group>"; };
+		90B8E1331DA6F633002EE424 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		5BEE48A71D143BBE00F7B63E /* CustomCellMath */ = {
 			isa = PBXGroup;
 			children = (
+				90B8E1331DA6F633002EE424 /* TableViewController.swift */,
 				5BEE48AC1D143BBE00F7B63E /* Main.storyboard */,
 				5BEE48BA1D1450AB00F7B63E /* MathTableViewCell.swift */,
-				5BEE48BC1D14514C00F7B63E /* TableViewController.swift */,
 				5BEE48C01D1455BB00F7B63E /* DisplayMathViewController.swift */,
 				5BEE48C21D1483FE00F7B63E /* Supporting Files */,
 			);
@@ -152,8 +152,8 @@
 			files = (
 				5BEE48A91D143BBE00F7B63E /* AppDelegate.swift in Sources */,
 				5BEE48C11D1455BB00F7B63E /* DisplayMathViewController.swift in Sources */,
-				5BEE48BD1D14514C00F7B63E /* TableViewController.swift in Sources */,
 				5BEE48BB1D1450AB00F7B63E /* MathTableViewCell.swift in Sources */,
+				90B8E1341DA6F633002EE424 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
